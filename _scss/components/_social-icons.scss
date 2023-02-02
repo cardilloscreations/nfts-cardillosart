@@ -1,0 +1,78 @@
+/**
+ *
+ *  Social Icons Style
+ *
+ *  @package ohkimur_components
+ *
+ **/
+
+.social-icons {
+  display: inline-block;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+
+  a {
+    text-decoration: none;
+    color: $footer-color;
+
+    &:hover,
+    &:active {
+      color: $active;
+    }
+  }
+
+  ol.icons {
+
+    list-style: none;
+    margin-left: 1.0rem;
+
+    li:not(:last-child) {
+      margin-bottom: 0.8rem;
+    }
+
+    sup {
+      font-size: 50%;
+      vertical-align: super;
+    }
+
+    &.global-text-color-icons {
+      li {
+
+        a {
+          color: $footer-color;
+
+          &:hover {
+            color: $active;
+          }
+        }
+      }
+    }
+
+  }
+
+  ul.icons {
+
+    &.global-text-color-icons {
+      li {
+        a {
+          color: $footer-color;
+
+          &:hover {
+            color: $active;
+          }
+        }
+      }
+    }
+
+    li {
+      float: left;
+      margin-right: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+}

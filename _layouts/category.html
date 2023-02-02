@@ -1,0 +1,19 @@
+---
+layout: projects
+---
+
+{% if site.categories[page.category] %}
+
+<section class="site-section projects-section">
+    <div class="container">
+        <div class="row project-articles-container">
+            {% for post in site.categories[page.category] %}
+            {% include segments/preview-article.html post=post %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% else %}
+<p>There are currently no posts with the category: {{ page.category }}</p>
+{% endif %}

@@ -1,0 +1,16 @@
+<div class="widget page-tags-widget">
+  <header>Page Tags:</header>
+  {% assign tags_list = page.tags %}
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+      <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}">{{ tag }}</a>
+      {% if forloop.last != true %} , {% endif %}
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %}
+      <a href="{{ site.baseurl }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+      {% if forloop.last != true %} , {% endif %}
+    {% endfor %}
+  {% endif %}
+{% assign tags_list = nil %}
+</div>

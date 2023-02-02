@@ -1,0 +1,26 @@
+---
+layout: default
+title: NFTs by Cardillo's Art
+menu: Home
+---
+
+{% include sections/about.html %}
+
+<section class="site-section projects-section">
+    <div class="container">
+        <div class="row text-center">
+            <header class="col-md-push-2 col-sm-12 section-header">
+                <h2>{{ site.projects-title }}</h2>
+                <hr class="normal">
+            </header>
+        </div>
+        <div class="row project-articles-container">
+            {% include sections/preview.html limit=3 %}
+        </div>
+        <div class="row d-flex justify-content-center align-content-center view-posts">
+            <a href="projects.html" class="button-cta button-focus col-3">View all projects</a>
+        </div>
+    </div>
+</section>
+
+{% include sections/site-tags.html %}

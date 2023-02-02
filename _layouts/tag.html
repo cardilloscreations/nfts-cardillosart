@@ -1,0 +1,19 @@
+---
+layout: projects
+---
+
+{% if site.tags[page.tag] %}
+
+<section class="site-section projects-section">
+    <div class="container">
+        <div class="row project-articles-container">
+            {% for post in site.tags[page.tag] %}
+            {% include segments/preview-article.html post=post %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% else %}
+<p>There are currently no posts with the tag: {{ page.tag }}</p>
+{% endif %}

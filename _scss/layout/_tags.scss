@@ -1,0 +1,123 @@
+aside.site-tags {
+
+  // Widget
+  .widget {
+    margin-bottom: 60px;
+
+    a {
+      text-decoration: none;
+    }
+
+    // Widget Header
+    header.widget-header {
+      padding: 24px 30px;
+      color: $widget-title;
+      margin-bottom: 30px;
+      background-color: $widget-header;
+
+      h4.widget-title {
+        font-size: 1.25rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  // Categories Widget
+  .categories-widget {
+    .widget-content {
+
+      ul.categories-box {
+        li {
+          a {
+            display: block;
+            padding: 20px 30px;
+            color: $global-text;
+            border-bottom: 1px solid $widget-header;
+
+            .cat-count {
+              float: right;
+              margin-top: -3px;
+              padding: 5px 6px;
+              border-radius: 3px;
+              background: $widget-header;
+              font-size: 0.6875rem;
+              transition: color, background $transition-links $transition-links-type;
+            }
+
+            &:hover {
+              color: $primary;
+
+              .cat-count {
+                color: $white;
+                background: $primary;
+              }
+            }
+
+          }
+
+          &:last-child {
+            a {
+              border-bottom: 0;
+            }
+          }
+
+        }
+      }
+
+    }
+  }
+
+  // Tags Cloud
+  .tags-cloud-widget {
+    .widget-content {
+
+      // Silence is Golden
+
+    }
+  }
+
+  // Newsletter Widget
+  .newsletter-widget {
+    .widget-content {
+
+      form.newsletter-email-signup {
+        .field-group {
+          margin-bottom: 20px;
+
+          input {
+            border-width: 2px;
+            padding: 20px;
+          }
+        }
+
+        .button-subscribe {
+          padding: 20px;
+          text-transform: uppercase;
+        }
+
+        p {
+          margin-top: 10px;
+        }
+      }
+
+    }
+  }
+
+}
+
+.page-tags-section {
+  a {
+    text-decoration: none;
+  }
+  
+  .row {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  header {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+}

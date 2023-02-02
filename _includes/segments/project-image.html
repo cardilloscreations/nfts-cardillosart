@@ -1,0 +1,6 @@
+{% assign post=include.post %}
+<div class="img-wrap">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="/images/project/{{ post.image | default: site.project-placeholder-image }}" class="img-fluid" alt="Project Article Image">
+    </a>
+</div>

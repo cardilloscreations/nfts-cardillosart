@@ -1,0 +1,28 @@
+{% assign post=include.post %}
+<div class="col-md-4 col-md-push-0 col-sm-10 col-sm-push-1 col-xs-10 col-xs-push-1">
+    <article class="project-preview">
+        <header class="article-header">
+            {% include segments/project-image.html post=include.post %}
+            <div class="article-title">
+                <h3 class="title">
+                    <a class="text-nowrap" href="{{ site.baseurl }}{{ post.url }}">
+                        {% if post.shorttitle %}
+                        {{ post.shorttitle }}
+                        {% else %}
+                        {{ post.title }}
+                        {% endif %}
+                    </a>
+                </h3>
+                <h4 class="cdate">{{ post.date | date: "%Y-%m-%d" }}</h4>
+            </div>
+        </header>
+        <div class="article-content">
+            <div class="article-excerpt">
+                <p>{{ post.excerpt | strip_html | truncatewords:50 }}</p>
+            </div>
+            <div class="show-more">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a>
+            </div>
+        </div>
+    </article>
+</div>

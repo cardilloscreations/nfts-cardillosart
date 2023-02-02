@@ -1,0 +1,23 @@
+<section class="site-section tags-section">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="row text-center">
+            <!-- Section Header -->
+            <header class="col-md-push-2 col-sm-12 section-header">
+                <h2>{{ site.tags-title }}</h2>
+                <hr class="normal">
+            </header>
+            <!-- Section Content -->
+            <div class="col-md-push-2 col-sm-12 section-content">
+                <aside class="site-tags row justify-content-md-center">
+                    <div class="col">
+                        {% include widgets/site-categories-widget.html %}
+                    </div>
+                    <div class="col">
+                        {% include widgets/site-tags-widget.html %}
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>

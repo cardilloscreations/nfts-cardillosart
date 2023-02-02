@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+{% include head.html %}
+
+<body>
+
+  <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
+
+  {% include header/header-slim.html current="Projects" %}
+
+  <section class="site-section projects-section page-layout">
+    <div class="container">
+      <div class="row project-articles-container">
+        <article class="project-article">
+          <header class="article-header">
+            {% include segments/project-image.html post=page %}
+            <div class="article-title">
+              <h3 class="title">
+                <a class="text-nowrap" href="{{ site.baseurl }}{{ page.url }}">
+                  {% if page.shorttitle %}
+                  {{ page.shorttitle }}
+                  {% else %}
+                  {{ page.title }}
+                  {% endif %}
+                </a>
+              </h3>
+              <h4 class="cdate">{{ page.date | date: "%Y-%m-%d" }}</h4>
+            </div>
+          </header>
+          <div class="article-content">
+            {{ content }}
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {% include sections/page-tags.html %}
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+</body>
+
+</html>

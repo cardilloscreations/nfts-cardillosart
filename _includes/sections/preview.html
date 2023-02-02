@@ -1,0 +1,3 @@
+{% for post in site.posts limit:{{include.limit}} %}
+{% include segments/preview-article.html post=post %}
+{% endfor %}

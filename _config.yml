@@ -1,0 +1,64 @@
+# Information for compile
+exclude: ["Gemfile", "CNAME", "LICENSE", "README.md", "AUTHORING.md"]
+
+permalink: /:year-:month-:day-:title
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
+# Sass configuration
+sass:
+  sass_dir: _scss
+
+# Information for deploy
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: "https://nfts.cardillos.art"
+
+include: ['_pages']
+
+smooth-scroll: false
+future: true
+
+# This is your site title
+title: NFTs by Cardillo's Art
+
+# Website language
+lang: en-US
+
+# Site Tagline
+tagline: An experimental collection of NFTs.
+
+# Header Title
+header-title: NFTs by Cardillo's Art
+
+# Main contact email address
+email: nfts@cardillos.art
+
+youtube: "https://www.youtube.com/@cardillos-art"
+facebook: "https://www.facebook.com/Cardillos.Art/"
+instagram: "https://www.instagram.com/Cardillos.Art/"
+twitter: "https://twitter.com/cardillosart"
+opensea: "https://opensea.io/cardillos-art"
+rarible: "https://rarible.com/cardillos-art"
+mintable: "https://mintable.app/u/cardillos-art"
+
+about-title: About Me
+about-description-short: Cardillo's Art is created by Ray Cardillo.
+about-description-long: >
+  I have a wide range of creative interests that are mostly centered around
+  various forms of digital art. This site focuses on my NFT projects.
+
+projects-title: My Projects
+project-placeholder-image: R-Cardillo-Post-Placeholder.png
+
+tags-title: Project Tags
+
+footer-description: Find Cardillo's Art on all of your favorite sites.
+footer-copyright-text: Cardillo's Creations, LLC
+footer-copyright-link: https://cardilloscreations.com
+footer-copyright-year: 2023

@@ -1,0 +1,14 @@
+<div class="widget categories-widget">
+  <header>Categories:</header>
+  {% assign cat_list = page.categories %}
+    {% if cat_list.first[0] == null %}
+      {% for category in cat_list %}
+        <a href="{{ site.baseurl }}/category/{{ category | slugify }}">{{ category }}</a>
+      {% endfor %}
+    {% else %}
+      {% for category in cat_list %}
+        <a href="{{ site.baseurl }}/category/{{ category[0] | slugify }}">{{ category[0] }}</a>
+      {% endfor %}
+    {% endif %}
+  {% assign cat_list = nil %}
+</div>
