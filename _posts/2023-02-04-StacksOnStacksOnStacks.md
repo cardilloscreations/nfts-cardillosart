@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'Stacks On Stacks On Stacks'
-subtitle: 'Fiat money inspired collection'
+subtitle: 'Fiat Money Inspired Collection'
 date: 2023-02-04
 categories: [Generative]
 tags: [stacks,tests]

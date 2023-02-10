@@ -2,7 +2,7 @@
 layout: project
 title: 'Cognitive Dissonance'
 shorttitle: 'CogDis Stereograms'
-subtitle: 'Stereograms that mess with your mind'
+subtitle: 'Stereograms That Blow Your Mind'
 date: 2023-01-21
 image: 2023-01-21-CogDisStereograms.png
 categories: [OneOfOne]

@@ -1,10 +1,11 @@
 ---
 layout: project
-title: 'Wiener Man'
-subtitle: 'The Wiggly Wiener of Madness'
-date: 2023-01-28
+title: 'Vexed Totems'
+subtitle: 'Wacky and Wild Vexed Totems'
+date: 2023-02-09
+image: 2023-02-09-VexedTotems.png
 categories: [Generative]
-tags: [wienerman]
+tags: [totems]
 events: [
     {
         date: "TBD",
@@ -19,22 +20,22 @@ events: [
         description: "The drop date will be scheduled after the images are finalized."
     },
     {
-        date: "circa 2023-02-04",
+        date: "circa 2023-02-09",
         icon: "fa-solid fa-pen-ruler",
         title: "First Draft",
-        description: "Initial images and concept published on the website."
+        description: "Initial images and concept published."
     },
     {
-        date: "circa 2023-01-29",
+        date: "circa 2023-02-06",
         icon: "fa-regular fa-lightbulb",
         title: "Inception",
-        description: "Conceived while researching entertaining animated NFTs."
+        description: "Conceived from my sketchbook when looking for composable images."
     }
 ]
 ---
 
 <p class="premono" markdown="1">
-A generated collection of animated NFTs inspired by the american hot dog and alternate reality. Everyone loves a good wiggly wiener.
+A generated collection of NFTs that represent blocky totems with a gothic vibe.
 
 ━━━━━━━━━━━━━━━━━━━━
 L I N K S：
