@@ -137,6 +137,7 @@ section.projects-section {
             text-align: center;
             color: $text-gray;
             font-style: italic;
+            font-size: 1.2rem;
           }
 
           .rdate {
@@ -154,6 +155,12 @@ section.projects-section {
         .article-excerpt {
           margin-top: 1rem;
           margin-bottom: 1rem;
+        }
+
+        header.section-header {
+          h1, h2, h3, h4, h5, h6 {
+            margin-top: 2rem;
+          }
         }
 
         .show-more {

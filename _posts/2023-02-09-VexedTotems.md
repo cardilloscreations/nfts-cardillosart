@@ -1,11 +1,18 @@
 ---
 layout: project
 title: 'Vexed Totems'
+coll-name: 'VexedTotem'
 subtitle: 'Wacky and Wild Vexed Totems'
 date: 2023-02-09
 image: 2023-02-09-VexedTotems.png
 categories: [Generative]
 tags: [totems]
+marketing: {
+    minting-page: "https://app.niftykit.com/drops/vexedtotem",
+    minting-key: "PNKpKFutl4oS3ZnTFDjX",
+    opensea: "https://opensea.io/collection/vexedtotem",
+    rarible: "https://rarible.com/vexedtotem"
+}
 events: [
     {
         date: "TBD",
@@ -38,19 +45,9 @@ events: [
 The VexedTotem collection was created by Ray Cardillo (Cardillo's Art) as an NFT experiment. They are blocky totems with a vexed gothic vibe that were hand drawn in Adobe Fresco.
 
 ━━━━━━━━━━━━━━━━━━━━
-<script type="module" src="https://unpkg.com/@niftykit/components/dist/components/components.esm.js"></script><style> 
-.web3modal-modal-lightbox { z-index: 999 !important; }
-.web3modal-modal-container { z-index: 999 !important; }
-.web3modal-modal-card { z-index: 999 !important; }</style>
-MINTING BUTTON:
-<nk-dropkit apikey="PNKpKFutl4oS3ZnTFDjX" />
-MINTING PAGE:
-<https://app.niftykit.com/drops/vexedtotem>
-
-MARKETPLACE LINKS：
-<https://opensea.io/collection/vexedtotem>
-<https://rarible.com/vexedtotem>
 </p>
+
+{% include sections/marketing.html %}
 
 <br />
 <hr />

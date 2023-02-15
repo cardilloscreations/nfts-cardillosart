@@ -7,7 +7,7 @@
  **/
 
 section.site-section {
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
   background: $section-bg;
   // z-index: 1;
@@ -81,5 +81,17 @@ section.links-section {
     .svg-inline--fa {
       width: 3rem;
     }
+  }
+}
+
+section.marketing-section {
+  ul {
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
   }
 }
